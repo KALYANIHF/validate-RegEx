@@ -33,9 +33,9 @@ p {
   font-size: 14px;
 }
 p {
-  visibility: hidden;
+  display: none;
 }
 input.invalid + p {
-  visibility: visible;
+  display: block;
   color: red;
 }

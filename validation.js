@@ -1,7 +1,7 @@
 var reg = /^[0-9]{11}$/gi;
 
 const patterns = {
-  telephone: /^\d{11}$/gi,
+  telephone: /^\d{10}$/gi,
   username: /^[a-z0-9]{5,12}$/i,
   email: /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(.\[a-z]{2,8})?$/,
   password: /^[\w@-]{8,20}$/,
